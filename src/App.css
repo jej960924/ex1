@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.content{display: flex;}
+
+.view{
+  flex:1 1 70%;
+}
+
+.list{
+  flex: 1 1 30%
+}
+
+.contents-wrap{
+  display: flex;
+}
+.contents-wrap .sidebar{
+  flex: 0 0 70px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+  display: block;
+}
+
+@media screen and (max-width:1200px) {
+  .content{flex-direction: column;}
+}

@@ -1,0 +1,53 @@
+.searchArea{
+    position:sticky;
+    top:0;
+    display: flex;
+    height:64px;
+    padding:12px 30px;
+    border-bottom: 1px solid #c0c0c0;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+.logoimg{width: 70px;}
+.searachInputarea{
+    display: flex;
+    align-items: center;
+}
+.searchInput{
+    width:35vw;
+    height: 40px;
+    padding-left: 10px;
+    border:1px solid #dfdfdf;
+    font-size: 14px;
+    outline: none;
+}
+.searchbtn{
+    background-color:#f3f3f3;
+    border-bottom:1px solid #dfdfdf;
+    border-right:1px solid #dfdfdf;
+    border-top:1px solid #dfdfdf;
+    width:60px;height: 40px;
+}
+.searchbtn img{width: 24px;}
+.gridmenubtn img{width:24px;}
+button{
+    background: none;
+    outline: none;
+    border:none;
+    cursor: pointer;
+}
+.micbtn{
+    padding:10px ;
+    margin-left:4px;
+}
+
+.micbtn i {color:#a7a5a5;font-size: 20px;}
+.topMenuarea{display: flex;}
+.topMenuarea .btn-rightmenu{padding:10px; margin-left:8px}
+.topMenuarea .btn-rightmenu i {color:#a7a5a5;font-size: 20px;}
+.logoarea{display: flex;}
+.logoarea .btn-leftmenu {padding:10px;margin-right: 20px;}
+.logoarea .btn-leftmenu i {color:#a7a5a5;font-size: 20px;}
